@@ -11,6 +11,7 @@
 <div class="topnav">
 <ul class="h">
 <li><img src="Logo1.png" alt="Logo" height="60" width="170"></li>
+<!-- All of the inline JS in this file can be moved to IndividualSignUp.js -->
 <li id="home"><a href="#home" onclick="window.location.href='Home.php'">Home</a></li>
 <li><a href="#SignUp" onclick="window.location.href='SignUp.php'">Sign Up</a></li>
 <li><a href="#Login" onclick="window.location.href='Login.php'">Login</a></li>

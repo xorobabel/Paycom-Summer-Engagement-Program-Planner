@@ -1,5 +1,5 @@
 function validateForm() {
-
+// See my previous comments in JavaScript files.
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 var x = document.forms["myForm"]["firstname"].value;

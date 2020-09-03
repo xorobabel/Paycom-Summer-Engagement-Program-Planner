@@ -1,4 +1,5 @@
 function validateForm() {
+// See my comment in EventSignUp.js on variable types. This file also needs the indentation cleaned up.
 
   var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 

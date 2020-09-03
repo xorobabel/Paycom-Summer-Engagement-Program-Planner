@@ -56,6 +56,7 @@ if (isset($_GET)) {
 <form name="myForm" action="Event.controller.php" onsubmit="return validateForm()" method="post">
 <h4> Select Type
 <input type="radio" name="Business" checked> Event
+<!--Not sure if this commented out code is used anywhere. Same for the button2 comment above-->
 <!--<input type="radio" name="Business"> Conference  </h4>-->
 <input type="hidden" name="eventId" value="<?php echo $id; ?>">
 <input id="log" name="name" placeholder="Enter Name" type="text" value="<?php echo $row['name']; ?>" required aria-required="true">

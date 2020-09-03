@@ -1,4 +1,5 @@
 <?php
+// I think the credentials below could possibly be stored in config.php and then loaded for each relevant page.
 session_start();
 $host = "nehajain.uta.cloud";
 $dbusername = "nehajain_admin";
@@ -69,6 +70,8 @@ echo "Name should not be empty";
 die();
 }
 }
-
+/* The above code also has a lot of nesting. I definitely think this could be split into separate functions.
+ * The lack of indentation makes it somewhat difficult to read.
+ */
 
 ?>

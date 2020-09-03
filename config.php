@@ -1,4 +1,5 @@
 <?php
+// It doesn't look to me like these configs are every directly used.
 $host = "yashdani.uta.cloud";
 $dbusername = "yashdani_wdm";
 $dbpassword = "yashdani1234";

@@ -1,5 +1,5 @@
 <?php
-
+// This file is looking quite good. I see several commented out chunks of code. If they are not being used, they can be removed.
 	session_start();
 
 	$host = "nehajain.uta.cloud";

@@ -60,6 +60,7 @@ session_start();
 $numProducts = count($rows, COUNT_NORMAL);
 if ($numProducts > 0) {
   foreach ($rows as $row) {
+     // You can use a multi-line string or the <<< EOL ... EOL; functionality in PHP rather than multiple echos.
     // echo '<tr id="fix">';echo $row["id"]; echo'</td>';
     echo '<tr id="fix">';
     echo '<td id="fix">';echo $row["id"]; echo'</td>';

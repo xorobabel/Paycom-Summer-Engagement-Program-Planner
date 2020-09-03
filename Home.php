@@ -10,6 +10,8 @@
 <div class="nav">
 <ul class="h">
 <li><img src="Logo1.png" alt="Logo" height="60" width="170"></li>
+<!-- The links below have inline JavaScript. That is fine, but it is strongly recommended to move such functionality
+into a separate js file. -->
 <li id="home"><a href="#home" onclick="window.location.href='Home.php'">Home</a></li>
 <li><a href="#SignUp" onclick="window.location.href='SignUp.php'">Sign Up</a></li>
 <li><a href="#Login" onclick="window.location.href='Login.php'">Login</a></li>

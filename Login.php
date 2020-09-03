@@ -22,7 +22,7 @@
 </div>
 <div class="card1">
 <form name="myForm" action="login.controller.php" onsubmit="return validateForm()" method="post">
-<h2> <font-color: black> LOGIN </h2>
+<h2> <font-color: black> LOGIN </h2> <!-- font-color is deprecated in HTML5 -->
 <input id="log" name="email" placeholder="Enter your email address" type="email">  <br>
 <input id="log" name="password" placeholder="Enter password" type="password"> <br>
 <input id="button" type= "submit" value= "LOGIN" name="login-submit">
